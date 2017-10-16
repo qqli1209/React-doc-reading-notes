@@ -2,3 +2,11 @@ body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
+
+div {
+  margin: 10px 0;
+}
+
+input, textarea, select {
+  margin: 0 10px;
+}
