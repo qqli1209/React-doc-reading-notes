@@ -4,6 +4,7 @@ import HandlingEvent, { Toggle } from './HandlingEvent/HandlingEvent';
 import NameForm, { FlavorForm, TextForm } from './Forms/Forms.js'
 
 import App from './App/App';
+import Calculator from './LiftingStateUp/Calculator'
 import Clock from './Clock/Clock';
 import LoginControl from './ConditionalRendering/LoginControl';
 import NumberList from './ListsAndKeys/ListsAndKeys';
@@ -33,5 +34,8 @@ ReactDOM.render(<NameForm value='18' />, document.getElementById("NameForm"));
 ReactDOM.render(<TextForm value='some content' />, document.getElementById("TextForm"));
 
 ReactDOM.render(<FlavorForm />, document.getElementById("FlavorForm"));
+
+ReactDOM.render(<Calculator />, document.getElementById("Calculator"));
+
 
 registerServiceWorker();

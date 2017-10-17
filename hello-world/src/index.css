@@ -3,7 +3,7 @@ body {
   margin: 20px;
 }
 
-div {
+div, fieldset {
   margin: 10px 0;
 }
 
