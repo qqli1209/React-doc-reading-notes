@@ -11,6 +11,7 @@ import NumberList from './ListsAndKeys/ListsAndKeys';
 import Page from './ConditionalRendering/Page';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SignUpDialog from './CompositionVsInheritance/Composition';
 import registerServiceWorker from './registerServiceWorker';
 
 const numbers = [1, 2, 3, 4, 5];
@@ -37,5 +38,6 @@ ReactDOM.render(<FlavorForm />, document.getElementById("FlavorForm"));
 
 ReactDOM.render(<Calculator />, document.getElementById("Calculator"));
 
+ReactDOM.render(<SignUpDialog />, document.getElementById("SignUpDialog"));
 
 registerServiceWorker();
