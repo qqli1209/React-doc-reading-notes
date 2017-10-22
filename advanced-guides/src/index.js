@@ -3,6 +3,7 @@ import './index.css';
 import CustomTextInput, { AutoFocusTextInput } from './RefsAndTheDOM/CustomTextInput'
 
 import App from './App/App';
+import AppWithPortal from './Portals/AppWithPortal'
 import GrandParent from './RefsAndTheDOM/ExposingDOMRef';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -18,5 +19,8 @@ ReactDOM.render(<AutoFocusTextInput />, document.getElementById('AutoFocusTextIn
 ReactDOM.render(<GrandParent />, document.getElementById('GrandParent'));
 
 ReactDOM.render(<WordAdder />, document.getElementById('WordAdder'));
+
+ReactDOM.render(<AppWithPortal />, document.getElementById('app-root'));
+
 
 registerServiceWorker();
